@@ -1,0 +1,61 @@
+{
+  "name": "eog-data-assessment-cli",
+  "description": "CLI for EOG Node.js assessments",
+  "version": "1.0.0",
+  "author": "jwo",
+  "bin": {
+    "eog-data-assessment-cli": "./bin/run"
+  },
+  "bugs": "https://github.com/jh108/eog-data-assessment-cli/issues",
+  "dependencies": {
+    "@oclif/command": "^1",
+    "@oclif/config": "^1",
+    "@oclif/plugin-help": "^2",
+    "chalk": "^2.4.1",
+    "child_process": "^1.0.2",
+    "cli-ux": "^4.9.1",
+    "es6-promisify": "^6.0.1",
+    "global": "^4.3.2",
+    "listr": "^0.14.2",
+    "ora": "^3.0.0",
+    "parameterize": "^0.1.0",
+    "replace-in-file": "^3.4.2",
+    "rimraf": "^2.6.2",
+    "simple-git": "^1.105.0",
+    "tmp": "^0.0.33",
+    "util": "^0.11.1"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1",
+    "globby": "^8"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/npm-shrinkwrap.json",
+    "/oclif.manifest.json",
+    "/src"
+  ],
+  "homepage": "https://github.com/jh108/eog-data-assessment-cli",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "commands": "./src/commands",
+    "bin": "eog-react-visualization-cli",
+    "plugins": [
+      "@oclif/plugin-help"
+    ]
+  },
+  "repository": "jh108/eog-data-assessment-cli",
+  "scripts": {
+    "postpack": "rm -f oclif.manifest.json",
+    "prepack": "oclif-dev manifest && oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  }
+}
