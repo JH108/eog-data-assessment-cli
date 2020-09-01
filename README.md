@@ -57,7 +57,7 @@ DESCRIPTION
   local repository to start you off.
 ```
 
-_See code: [src/commands/create.js](https://github.com/jh108/eog-data-assessment-cli/blob/v2.0.1/src/commands/create.js)_
+_See code: [src/commands/create.js](https://github.com/jh108/eog-data-assessment-cli/blob/master/src/commands/create.js)_
 
 ## `eog-data-assessment-cli help [COMMAND]`
 
@@ -74,7 +74,7 @@ OPTIONS
   --all  see all commands in CLI
 ```
 
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.1.3/src/commands/help.ts)_
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/master/src/commands/help.ts)_
 
 ## `eog-data-assessment-cli preview`
 
@@ -92,7 +92,7 @@ DESCRIPTION
   A way to preview your assessment. Will clone, install and run.
 ```
 
-_See code: [src/commands/preview.js](https://github.com/jh108/eog-data-assessment-cli/blob/v2.0.1/src/commands/preview.js)_
+_See code: [src/commands/preview.js](https://github.com/jh108/eog-data-assessment-cli/blob/master/src/commands/preview.js)_
 
 <!-- commandsstop -->
 
