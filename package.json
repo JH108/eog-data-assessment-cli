@@ -1,12 +1,14 @@
 {
-  "name": "eog-data-assessment-cli",
+  "name": "@jh108/eog-data-assessment-cli",
   "description": "CLI for EOG Node.js assessments",
   "version": "1.0.0",
   "author": "jh108",
   "bin": {
-    "eog-data-assessment-cli": "./bin/run"
+    "eog-data-assessment-cli": "bin/run"
   },
-  "bugs": "https://github.com/jh108/eog-data-assessment-cli/issues",
+  "bugs": {
+    "url": "https://github.com/jh108/eog-data-assessment-cli/issues"
+  },
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -51,7 +53,10 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "jh108/eog-data-assessment-cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jh108/eog-data-assessment-cli.git"
+  },
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
     "prepack": "oclif-dev manifest && oclif-dev readme",

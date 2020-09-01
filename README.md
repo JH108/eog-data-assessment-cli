@@ -3,13 +3,13 @@
 CLI for the EOG Data Assessment
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/eog-data-assessment-cli.svg)](https://npmjs.org/package/eog-data-assessment-cli)
-[![Downloads/week](https://img.shields.io/npm/dw/eog-data-assessment-cli.svg)](https://npmjs.org/package/eog-data-assessment-cli)
+[![Version](https://img.shields.io/npm/v/eog-data-assessment-cli.svg)](https://npmjs.org/package/@jh108/eog-data-assessment-cli)
+[![Downloads/week](https://img.shields.io/npm/dw/eog-data-assessment-cli.svg)](https://npmjs.org/package/@jh108/eog-data-assessment-cli)
 [![License](https://img.shields.io/npm/l/eog-data-assessment-cli.svg)](https://github.com/jh108/eog-data-assessment-cli/blob/master/package.json)
 
 <!-- toc -->
 
-- [EOG Data Assessment](#eog-data-assessment-assessment)
+- [EOG Data Assessment](#eog-data-assessment)
 - [Usage](#usage)
 - [Commands](#commands)
 <!-- tocstop -->
@@ -19,11 +19,11 @@ CLI for the EOG Data Assessment
 <!-- usage -->
 
 ```sh-session
-$ npm install -g eog-data-assessment-cli
+$ npm install -g @jh108/eog-data-assessment-cli
 $ eog-data-assessment-cli COMMAND
 running command...
 $ eog-data-assessment-cli (-v|--version|version)
-eog-data-assessment-cli/2.0.1 darwin-x64 node-v10.12.0
+@jh108/eog-data-assessment-cli/1.0.0 darwin-x64 node-v10.15.3
 $ eog-data-assessment-cli --help [COMMAND]
 USAGE
   $ eog-data-assessment-cli COMMAND
@@ -42,7 +42,7 @@ USAGE
 
 ## `eog-data-assessment-cli create`
 
-EOG Data Assessment
+EOG Data Node.js Assessment
 
 ```
 USAGE
@@ -57,7 +57,7 @@ DESCRIPTION
   local repository to start you off.
 ```
 
-_See code: [src/commands/create.js](https://github.com/jh108/eog-data-assessment-cli/blob/master/src/commands/create.js)_
+_See code: [src/commands/create.js](https://github.com/jh108/eog-data-assessment-cli/blob/v1.0.0/src/commands/create.js)_
 
 ## `eog-data-assessment-cli help [COMMAND]`
 
@@ -74,7 +74,7 @@ OPTIONS
   --all  see all commands in CLI
 ```
 
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/master/src/commands/help.ts)_
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.1.3/src/commands/help.ts)_
 
 ## `eog-data-assessment-cli preview`
 
@@ -92,7 +92,7 @@ DESCRIPTION
   A way to preview your assessment. Will clone, install and run.
 ```
 
-_See code: [src/commands/preview.js](https://github.com/jh108/eog-data-assessment-cli/blob/master/src/commands/preview.js)_
+_See code: [src/commands/preview.js](https://github.com/jh108/eog-data-assessment-cli/blob/v1.0.0/src/commands/preview.js)_
 
 <!-- commandsstop -->
 
