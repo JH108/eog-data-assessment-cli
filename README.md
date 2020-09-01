@@ -5,7 +5,7 @@ CLI for the EOG Data Assessment
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/eog-data-assessment-cli.svg)](https://npmjs.org/package/eog-data-assessment-cli)
 [![Downloads/week](https://img.shields.io/npm/dw/eog-data-assessment-cli.svg)](https://npmjs.org/package/eog-data-assessment-cli)
-[![License](https://img.shields.io/npm/l/eog-data-assessment-cli.svg)](https://github.com/jh108/github-eog-data-assessment-cli/blob/master/package.json)
+[![License](https://img.shields.io/npm/l/eog-data-assessment-cli.svg)](https://github.com/jh108/eog-data-assessment-cli/blob/master/package.json)
 
 <!-- toc -->
 
