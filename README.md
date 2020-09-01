@@ -98,4 +98,4 @@ _See code: [src/commands/preview.js](https://github.com/jh108/eog-data-assessmen
 
 ## Special Thanks
 
-A special thanks to [jwo](https://github.com/jwo) for allowing me to use his work as a base for this.
+A special thanks to [jwo](https://github.com/jwo) for allowing me to use his work as the base for this.

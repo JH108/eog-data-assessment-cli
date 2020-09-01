@@ -2,7 +2,7 @@
   "name": "eog-data-assessment-cli",
   "description": "CLI for EOG Node.js assessments",
   "version": "1.0.0",
-  "author": "jwo",
+  "author": "jh108",
   "bin": {
     "eog-data-assessment-cli": "./bin/run"
   },
@@ -46,7 +46,7 @@
   "main": "src/index.js",
   "oclif": {
     "commands": "./src/commands",
-    "bin": "eog-react-visualization-cli",
+    "bin": "eog-data-assessment-cli",
     "plugins": [
       "@oclif/plugin-help"
     ]
